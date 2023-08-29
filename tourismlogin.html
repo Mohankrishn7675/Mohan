@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+<style>
+body
+{
+background-repeat:no-repeat;
+background-size:cover;
+}
+</style>
+  <title>Welcome to Travel and tourism</title>
+  <center><h1>Welcome to Travel and tourism</h1>
+<h2>SignUp</h2>
+  <hr color="red">
+<script type="text/javascript">
+function validation()
+{
+ var uname=document.login.uname.value;
+  var password=document.login.pwd.value;
+   if(uname=="")
+   {   
+    alert("please enter correct user name");
+     document.login.uname.focus();
+	 return false;
+   }
+      if(password=="")
+   {
+    alert("please enter correct password");
+     document.login.pwd.focus();
+	 return false;
+   }
+  
+
+}
+</script>
+</head>
+
+<body  Style="background-image:url('https://thumbs.dreamstime.com/b/travel-d-text-vector-design-world-famous-landmarks-destinations-blue-background-adventure-vacation-194769154.jpg')">
+
+
+  <form method="post" name="login" action="tours.html" onsubmit="return validation()">
+  Phone.No:<input type="text" name="uname"><br>
+  Password:<input type="text" name="pwd"><br>
+  <input type="submit" name="Login">
+    </center>
+  </form>
+
+</body>
+
+</html>
+
+
+ </body>
+</html>
